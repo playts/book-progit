@@ -1,0 +1,10 @@
+markdown: rdiscount
+pygments: true
+exclude: ["README.markdown", "*.txt"]
+
+# 自定义标记
+title: Pro Git
+author :
+  name : XuLong
+  email : playts@gmail.com
+
