@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 <div class="page-front">
 <h1 class="title">目录</h1>

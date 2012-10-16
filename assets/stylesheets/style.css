@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #efefef;
 }
@@ -7,8 +5,6 @@ body {
 h2,h3 {
   border-bottom: 1px solid #C0C0C0;
 }
-
-
 
 code {
   color: #800000;
@@ -39,23 +35,20 @@ pre {
 }
 
 pre code {
-  /*color: #009900;*/
   background: transparent;
   padding: 0;
 }
-
 
 blockquote {
 
 }
 
 #header,#main,#footer {
-  max-width: 960px;
   background-color: transparent;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 div#site-name,
 h1#site-name {
@@ -95,6 +88,6 @@ h1#site-name {
 }
 
 .content h3,.post h3 {
-  color: #4F4F4F;
   border-bottom: 1px dashed #ccc;
+  color: #4F4F4F;
 }

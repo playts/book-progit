@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="{{ site.author.name }}">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <style type="text/css">
     @import url(/assets/stylesheets/reset.css) all;
     @import url(/assets/stylesheets/style.css) all;
@@ -14,7 +14,7 @@
 <div id="page">
 <div id="header">
 <div class="section">
-{% if page.id %}<div id="site-name"><strong><a href="/" title="Home">{{ site.title }}</a></strong></div>{% else %}<h1 id="site-name"><a href="/" title="Home">{{ site.title }}</a></h1>{% endif %}
+{% if page.title %}<div id="site-name"><strong><a href="/" title="Home">{{ site.title }}</a></strong></div>{% else %}<h1 id="site-name"><a href="/" title="Home">{{ site.title }}</a></h1>{% endif %}
 </div>
 </div>
 
